@@ -1,0 +1,33 @@
+#controls{
+    position:relative;
+    width:50vw;
+}
+.rrange{
+    position:relative;
+    width:5vw;
+}
+
+.butt{
+    position:relative;
+    display:inline-block;
+}
+#button1{
+    background-color:yellow;
+}
+#button2{
+    background-color:blue;
+}
+#button3{
+    background-color:red;
+}
+#range4{
+    background-color:gray;
+}
+
+.newdiv{
+	left:0px;
+	top:0px;
+	display:inline-block;
+	position:absolute;
+	margin:auto;
+}

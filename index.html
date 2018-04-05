@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment 2 - Avatar creator</title>
+    <link href="preview.css" rel="stylesheet" type="text/css"/>
+    <link href="controls.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <div id="preview">
+      <img id="hair" class="items" src="img/hair1.png" />
+      <img id="eyes" class="items" src="img/eyes1.png" />
+      <img id="nose" class="items" src="img/nose1.png" />
+      <img id="mouth" class="items" src="img/mouth1.png" />
+    </div>
+    <div id="controls">
+        <input type="range" min="0" max="70" value="60" id="range1" class="rrange"/>
+        <input type="range" min="0" max="40" value="20" id="range2" class="rrange"/>
+        <input type="range" min="0" max="30" value="20" id="range3" class="rrange"/>
+        <input type="range" min="0" max="35" value="20" id="range4" class="rrange"/ >
+        <input type="color" id="bgcolor" />
+        <br />
+        <button id="button1" class="butt" >Range</button>
+        <button id="button2" class="butt">Number</button>
+        <button id="button3" class="butt"> Random</button>
+        <button id="button4" class="butt"> +</button>
+        <button id="button5" class="butt">Auto Random Create</button>
+        <button id="button6" class="butt">Stop Auto Create</button>
+    </div>
+    <div id="display">
+    
+    </div>
+    <script src="preview.js" ></script>
+    <script src="controls.js"></script>
+  </body>
+</html>
